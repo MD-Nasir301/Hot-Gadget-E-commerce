@@ -46,14 +46,17 @@ a.nav-link {
    left: 300px;
 }
 .carousel-indicators li {
-    width: 11px;
-    height: 8px;
-    border-radius: 55%;
+    width: 12px;
+    height: 10px;
+    border-radius: 50px;
     background-color: orange;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    transition: .5s;
 }
+
 .carousel-indicators li.active {
-    width: 30px;
-    border-radius: 42%;
+    width: 35px;
 }
 /* smartphone */
 .smartphone-area {
